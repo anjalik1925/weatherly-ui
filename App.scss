@@ -1,0 +1,9 @@
+// src/App.scss
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e0f7fa, #80deea);
+  font-family: 'Poppins', sans-serif;
+}
