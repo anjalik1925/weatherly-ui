@@ -1,0 +1,142 @@
+.forecast-details {
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb);
+  color: #222;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.seven-day {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.day-card {
+  background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+  border-radius: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  color: #333;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, background 0.4s ease;
+  backdrop-filter: blur(10px);
+}
+
+.day-card:hover {
+  transform: scale(1.05) rotate(-1deg);
+  background: linear-gradient(to bottom right, #fdfbfb, #ebedee);
+}
+
+.day-card p {
+  margin: 0.4rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-around;
+}
+
+.info-card {
+  flex: 1 1 200px;
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  border-radius: 1.5rem;
+  padding: 1rem 1.5rem;
+  color: #111;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(8px);
+}
+
+.info-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.info-card p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.info-card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #000;
+}
+/* Add subtle card entrance animation */
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(30px);}
+  100% { opacity: 1; transform: translateY(0);}
+}
+
+.day-card,
+.info-card {
+  animation: fadeInUp 0.7s cubic-bezier(.21,1.02,.73,1.05) both;
+}
+
+/* Add a little bounce on hover for both cards */
+.day-card:hover,
+.info-card:hover {
+  animation: bounce 0.4s;
+}
+
+@keyframes bounce {
+  0% { transform: scale(1) rotate(0);}
+  30% { transform: scale(1.08) rotate(-2deg);}
+  60% { transform: scale(0.97) rotate(1deg);}
+  100% { transform: scale(1.05) rotate(-1deg);}
+}
+
+/* Add a glowing border on hover for day cards */
+.day-card:hover {
+  box-shadow: 0 0 0 4px #a1c4fd55, 0 4px 20px rgba(0,0,0,0.22);
+  border: 1.5px solid #a1c4fd;
+}
+
+/* Add a decorative gradient bar at the bottom of info cards */
+.info-card::after {
+  content: '';
+  display: block;
+  margin: 0.8rem auto 0 auto;
+  height: 5px;
+  width: 60%;
+  border-radius: 3px;
+  background: linear-gradient(to right, #fbd786, #f7797d);
+  opacity: 0.7;
+}
+
+/* Responsive tweaks for small screens */
+@media (max-width: 600px) {
+  .forecast-details {
+    padding: 1rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  .seven-day {
+    gap: 0.7rem;
+  }
+  .info-cards {
+    gap: 0.7rem;
+  }
+  .info-card {
+    padding: 0.7rem 0.8rem;
+    font-size: 0.95rem;
+  }
+}
