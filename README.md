@@ -1,75 +1,37 @@
-# 🌤️ Weatherly UI
+<h1 align="center">🌤️ Weatherly UI</h1>
+<p align="center">
+  <i>A futuristic, mobile-friendly weather app built with React and styled to perfection with Glassmorphism, pastel gradients, and real-time data.</i>
+</p>
 
-**Weatherly UI** is a modern, mobile-responsive weather forecast web application built with **React.js**. It fetches real-time weather data from the **OpenWeatherMap API** and presents it in a beautiful, animated, and glassmorphism-inspired UI.
-
-## 🚀 Features
-
-- 🌞 Real-time current weather data
-- 📅 5-day forecast mock preview
-- 🌍 Location-based weather (default: Chennai)
-- 📱 Fully mobile responsive
-- 🧊 Glassmorphism & pastel gradients for modern UI
-- 🎯 Built with performance and UX in mind
-
-## 🧪 Tech Stack
-
-- ⚛️ React.js
-- 🎨 SCSS (modular styling)
-- 📡 OpenWeatherMap API
-- 🔤 Google Fonts: Poppins
-- 💡 Responsive design with CSS Grid & Flexbox
-
-## 📷 Screenshots
-
-| Splash Screen | Current Weather | Forecast |
-|---------------|-----------------|----------|
-| ![Splash](https://i.ibb.co/1s4gqfZ/splash.png) | ![Current](https://i.ibb.co/YkPbZTw/current.png) | ![Forecast](https://i.ibb.co/Q86Vcbb/forecast.png) |
-
-## 🔧 Setup Instructions
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/weatherly-ui.git
-   cd weatherly-ui
-
-
-Install dependencies
-
-npm install
-
-Go to src/components/CurrentWeather.jsx
-
-Replace the apiKey value:
-
-const apiKey = "YOUR_API_KEY_HERE";
-
-npm start
-
-📌 To-Do
- Integrate live 5-day forecast API
-
- Add location selection input
-
- Show wind speed, humidity, and pressure
-
- Dark mode toggle
-
-👩‍💻 Author
-Anjali Kumari
-📧 anjalikumari@example.com
-🔗 LinkedIn
-
-🌐 API Reference
-OpenWeatherMap API
-
-📄 License
-This project is licensed under the MIT License. See LICENSE for more info.
-
-
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2.0-61dafb?logo=react&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SCSS-Custom%20Styles-pink?logo=sass&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/API-OpenWeatherMap-ffcc00?logo=cloudflare&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Mobile--First-Design-00bcd4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
+</p>
 
 ---
 
-Let me know if you'd like:
-- A Hindi version.
-- Deployment instructions (like for Netlify or Vercel).
-- A badge-rich version (like shields.io badges for forks, stars, etc.).
+## ✨ Overview
+
+**Weatherly UI** is a next-gen weather forecast interface inspired by **Glassmorphism**, minimalism, and futuristic UI trends. Built with 💙 React.js and powered by 🌐 OpenWeatherMap API, this responsive app shows real-time weather and animated 5-day forecasts in a delightful and intuitive layout.
+
+---
+
+## 🌟 Key Features
+
+- 🌞 **Live Weather Data** — Get the latest weather conditions instantly
+- 📱 **Mobile-First Design** — Seamlessly adapts to all screen sizes
+- 🧊 **Glassmorphism UI** — Modern, translucent card design
+- 🎨 **Pastel Gradients** — Soft visuals for a relaxing user experience
+- 🎬 **Smooth Animations** — CSS transitions and keyframes
+- 📍 **Location-Based Forecast** — (Default: Chennai, editable)
+- 📅 **5-Day Weather Cards** — Clean horizontal forecast scroll
+
+---
+
+## 🛠️ Tech Stack (Styled like UI Chips)
+
+```jsx
+[🔷 React.js]   [🎨 SCSS Modules]   [📡 REST API]   [🧊 Glassmorphism]   [📱 Mobile-First UX]
