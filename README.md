@@ -35,3 +35,56 @@
 
 ```jsx
 [🔷 React.js]   [🎨 SCSS Modules]   [📡 REST API]   [🧊 Glassmorphism]   [📱 Mobile-First UX]
+
+
+
+
+🚀 Getting Started
+1. Clone the repo
+git clone https://github.com/your-username/weatherly-ui.git
+cd weatherly-ui
+2. Install dependencies
+t
+npm install
+3. Add your OpenWeatherMap API Key
+Open src/components/CurrentWeather.jsx and update this line:
+
+const apiKey = "YOUR_API_KEY_HERE";
+4. Run the app
+
+npm start
+📸 UI Preview
+Splash	Current Weather	Forecast
+		
+
+🧩 To-Do List
+🔄 Integrate live 5-day forecast via OpenWeatherMap
+
+🌍 Add location selector (city input / geolocation)
+
+💨 Display wind speed, humidity, pressure
+
+🌙 Add dark mode toggle
+
+📦 Bundle app for Netlify / Vercel deployment
+
+🧪 Developer Tools
+Tool	Purpose
+⚛️ React.js	Frontend framework
+🎨 SCSS Modules	Modular component styling
+📡 OpenWeatherMap	Real-time weather data
+🖋 Google Fonts	Clean typography – "Poppins"
+💡 Flexbox/Grid	Responsive layout & alignment
+
+📬 Author
+👩‍💻 Anjali Kumari
+📧 anjalikumari@example.com
+🔗 LinkedIn | Portfolio
+
+🌐 API Reference
+OpenWeatherMap API Docs
+
+📄 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+
