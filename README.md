@@ -3,6 +3,18 @@
   <i>A futuristic, mobile-friendly weather app built with React and styled to perfection with Glassmorphism, pastel gradients, and real-time data.</i>
 </p>
 
+<div align="center">
+  <img src="https://i.ibb.co/1s4gqfZ/splash.png" alt="Splash Screen"
+       style="margin: 10px; padding: 8px; border: 2px solid #ccc; border-radius: 12px; height: 420px;" />
+
+  <img src="https://i.ibb.co/YkPbZTw/current.png" alt="Current Weather"
+       style="margin: 10px; padding: 8px; border: 2px solid #ccc; border-radius: 12px; height: 420px;" />
+
+  <img src="https://i.ibb.co/Q86Vcbb/forecast.png" alt="Forecast"
+       style="margin: 10px; padding: 8px; border: 2px solid #ccc; border-radius: 12px; height: 420px;" />
+</div>
+
+
 <p align="center">
   <img src="https://img.shields.io/badge/React-18.2.0-61dafb?logo=react&style=for-the-badge" />
   <img src="https://img.shields.io/badge/SCSS-Custom%20Styles-pink?logo=sass&style=for-the-badge" />
