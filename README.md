@@ -4,10 +4,10 @@
 </p>
 
 <div align="center">
-  <img src=""C:\Users\anjal\OneDrive\Pictures\Screenshots\Screenshot 2025-06-14 150519.png"" alt="Splash Screen"
+  <img src="C:\Users\anjal\OneDrive\Pictures\Screenshots\Screenshot 2025-06-14 150519.png" alt="Splash Screen"
        style="margin: 10px; padding: 8px; border: 2px solid #ccc; border-radius: 12px; height: 420px;" />
 
-  <img src="C:\Users\anjal\OneDrive\Pictures\Screenshots\Screenshot 2025-06-14 150415.png" alt="Current Weather"
+  <img src="https://ichef.bbci.co.uk/images/ic/320x180/p0jph7l9.png" alt="Current Weather"
        style="margin: 10px; padding: 8px; border: 2px solid #ccc; border-radius: 12px; height: 420px;" />
 
   <img src="C:\Users\anjal\OneDrive\Pictures\Screenshots\Screenshot 2025-06-14 150426.png" alt="Forecast"
