@@ -81,8 +81,8 @@ Tool	Purpose
 
 📬 Author
 👩‍💻 Anjali Kumari
-📧 anjalikumari@example.com
-🔗 LinkedIn | Portfolio
+📧anjalikumari19025@gmail.com
+https://www.linkedin.com/in/anjali-kumari-274230262/
 
 🌐 API Reference
 OpenWeatherMap API Docs
