@@ -4,13 +4,13 @@
 </p>
 
 <div align="center">
-  <img src="https://i.ibb.co/1s4gqfZ/splash.png" alt="Splash Screen"
+  <img src=""C:\Users\anjal\OneDrive\Pictures\Screenshots\Screenshot 2025-06-14 150519.png"" alt="Splash Screen"
        style="margin: 10px; padding: 8px; border: 2px solid #ccc; border-radius: 12px; height: 420px;" />
 
-  <img src="https://i.ibb.co/YkPbZTw/current.png" alt="Current Weather"
+  <img src="C:\Users\anjal\OneDrive\Pictures\Screenshots\Screenshot 2025-06-14 150415.png" alt="Current Weather"
        style="margin: 10px; padding: 8px; border: 2px solid #ccc; border-radius: 12px; height: 420px;" />
 
-  <img src="https://i.ibb.co/Q86Vcbb/forecast.png" alt="Forecast"
+  <img src="C:\Users\anjal\OneDrive\Pictures\Screenshots\Screenshot 2025-06-14 150426.png" alt="Forecast"
        style="margin: 10px; padding: 8px; border: 2px solid #ccc; border-radius: 12px; height: 420px;" />
 </div>
 
