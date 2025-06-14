@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 🌤️ Weatherly UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Weatherly UI** is a modern, mobile-responsive weather forecast web application built with **React.js**. It fetches real-time weather data from the **OpenWeatherMap API** and presents it in a beautiful, animated, and glassmorphism-inspired UI.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- 🌞 Real-time current weather data
+- 📅 5-day forecast mock preview
+- 🌍 Location-based weather (default: Chennai)
+- 📱 Fully mobile responsive
+- 🧊 Glassmorphism & pastel gradients for modern UI
+- 🎯 Built with performance and UX in mind
 
-### `npm start`
+## 🧪 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ⚛️ React.js
+- 🎨 SCSS (modular styling)
+- 📡 OpenWeatherMap API
+- 🔤 Google Fonts: Poppins
+- 💡 Responsive design with CSS Grid & Flexbox
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📷 Screenshots
 
-### `npm test`
+| Splash Screen | Current Weather | Forecast |
+|---------------|-----------------|----------|
+| ![Splash](https://i.ibb.co/1s4gqfZ/splash.png) | ![Current](https://i.ibb.co/YkPbZTw/current.png) | ![Forecast](https://i.ibb.co/Q86Vcbb/forecast.png) |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔧 Setup Instructions
 
-### `npm run build`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/weatherly-ui.git
+   cd weatherly-ui
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install
 
-### `npm run eject`
+Go to src/components/CurrentWeather.jsx
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Replace the apiKey value:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+const apiKey = "YOUR_API_KEY_HERE";
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📌 To-Do
+ Integrate live 5-day forecast API
 
-## Learn More
+ Add location selection input
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ Show wind speed, humidity, and pressure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ Dark mode toggle
 
-### Code Splitting
+👩‍💻 Author
+Anjali Kumari
+📧 anjalikumari@example.com
+🔗 LinkedIn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🌐 API Reference
+OpenWeatherMap API
 
-### Analyzing the Bundle Size
+📄 License
+This project is licensed under the MIT License. See LICENSE for more info.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let me know if you'd like:
+- A Hindi version.
+- Deployment instructions (like for Netlify or Vercel).
+- A badge-rich version (like shields.io badges for forks, stars, etc.).
